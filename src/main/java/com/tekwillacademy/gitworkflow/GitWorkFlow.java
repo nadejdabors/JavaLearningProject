@@ -14,7 +14,7 @@ public class GitWorkFlow {
         String step10 = "Create a pull request from Origin/New_Branch_Name into master";
         String step11 = "Add the Pull Request details like name, description and reviewers";
         String step12 = "If we collect at least 1 approval then we can merge the changes and continue with another task";
-        String step13 = "Do not forget that locally you are still on the New_Name_Branch".;
+        String step13 = "Do not forget that locally you are still on the New_Name_Branch.";
 
         System.out.println(step1);
         System.out.println(step2);
