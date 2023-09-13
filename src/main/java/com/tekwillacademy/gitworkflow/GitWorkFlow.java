@@ -11,7 +11,7 @@ public class GitWorkFlow {
         String step7 = "Add the task related changes in the solution";
         String step8 = "Execute git commit command from the IntelliJ Idea to store the changes at a local level - on the current branch";
         String step9 = "Execute git push from intelliJ Idea panel - as result, a new remote branch is created with origin/New_Branch_Name";
-        String step10 = "Create a pull request from Origin/New_Branch_Name into master";
+        String step10 = "Create a pull request from Origin/New_Branch_Name into master.";
         String step11 = "Add the Pull Request details like name, description and reviewers.";
         String step12 = "If we collect at least 1 approval then we can merge the changes and continue with another task";
         String step13 = "Do not forget that locally you are still on the New_Name_Branch.";
