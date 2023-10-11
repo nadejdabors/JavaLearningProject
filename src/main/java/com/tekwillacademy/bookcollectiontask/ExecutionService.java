@@ -56,6 +56,13 @@ public class ExecutionService {
         librariesMap.get("Str. Stefan cel Mare 136").printAllTheBooks();
         System.out.println(librariesMap.get("Str. Dacia 24/3 ap. 01").isThereSuchABookInTheStock(veronicasBook));
 
+        for(Map.Entry<String,Library> entry: librariesMap.entrySet()){
+            String cheie = entry.getKey();
+            Library valoare = entry.getValue();
+            System.out.println("Cheia: " + cheie + ", Valoare: " + valoare);
+        }
+
+
         int[] dataTable = new int[6];
         dataTable[0] = 32342;
         dataTable[1] = 43;
